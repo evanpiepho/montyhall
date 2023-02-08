@@ -1,0 +1,12 @@
+Package: montyhall
+Title: Monty Hall Game Problem Simulation
+Version: 0.0.0.9000
+Authors@R: 
+    person("Evan", "Piepho", , "epiepho@asu.edu", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This package simulates the Monty Hall Game problem, wherein a game show contestant can pick between three closed doors, only one of which is a winner. The package starts by picking a door and opening a losing door. Then, the user has the option to choose whether to stay with their original door or switch to other closed door. The package then returns whether the player wins or loses. This package can also run loops of n number of simulations.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
